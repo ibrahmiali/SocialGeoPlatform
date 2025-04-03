@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SocialGeoPlatform.Api.props" />
+</Project>

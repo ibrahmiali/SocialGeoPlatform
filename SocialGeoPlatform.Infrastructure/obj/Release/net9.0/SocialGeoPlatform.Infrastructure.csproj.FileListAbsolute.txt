@@ -1,0 +1,15 @@
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\bin\Release\net9.0\SocialGeoPlatform.Infrastructure.deps.json
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\bin\Release\net9.0\SocialGeoPlatform.Infrastructure.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\bin\Release\net9.0\SocialGeoPlatform.Infrastructure.pdb
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\bin\Release\net9.0\SocialGeoPlatform.Core.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\bin\Release\net9.0\SocialGeoPlatform.Core.pdb
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.csproj.AssemblyReference.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.AssemblyInfoInputs.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.AssemblyInfo.cs
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.csproj.CoreCompileInputs.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGe.56A4D275.Up2Date
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\refint\SocialGeoPlatform.Infrastructure.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\SocialGeoPlatform.Infrastructure.pdb
+V:\SocialGeoPlatform\SocialGeoPlatform.Infrastructure\obj\Release\net9.0\ref\SocialGeoPlatform.Infrastructure.dll

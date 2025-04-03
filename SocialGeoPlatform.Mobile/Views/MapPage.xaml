@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             x:Class="SocialGeoPlatform.Mobile.Views.MapPage">
+    <StackLayout>
+        <Label Text="Nearby Events" FontSize="Large" HorizontalOptions="Center" Margin="0,10" />
+        <maps:Map x:Name="MapView" VerticalOptions="FillAndExpand" />
+        <Button Text="Refresh Events" Command="{Binding RefreshCommand}" Margin="10" />
+    </StackLayout>
+</ContentPage>

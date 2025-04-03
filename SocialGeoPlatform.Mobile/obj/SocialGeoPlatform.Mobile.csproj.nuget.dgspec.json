@@ -1,0 +1,476 @@
+{
+  "format": 1,
+  "restore": {
+    "V:\\SocialGeoPlatform\\SocialGeoPlatform.Mobile\\SocialGeoPlatform.Mobile.csproj": {}
+  },
+  "projects": {
+    "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj",
+        "projectName": "SocialGeoPlatform.Core",
+        "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj",
+        "packagesPath": "C:\\Users\\h_jed\\.nuget\\packages\\",
+        "outputPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\h_jed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Guard.Net": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj",
+        "projectName": "SocialGeoPlatform.Infrastructure",
+        "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\h_jed\\.nuget\\packages\\",
+        "outputPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\h_jed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "supabase-csharp": {
+              "target": "Package",
+              "version": "[0.16.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "V:\\SocialGeoPlatform\\SocialGeoPlatform.Mobile\\SocialGeoPlatform.Mobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Mobile\\SocialGeoPlatform.Mobile.csproj",
+        "projectName": "SocialGeoPlatform.Mobile",
+        "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Mobile\\SocialGeoPlatform.Mobile.csproj",
+        "packagesPath": "C:\\Users\\h_jed\\.nuget\\packages\\",
+        "outputPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Mobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\h_jed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-android",
+          "net9.0-ios",
+          "net9.0-maccatalyst",
+          "net9.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-android35.0": {
+            "targetAlias": "net9.0-android",
+            "projectReferences": {
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj"
+              },
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj"
+              }
+            }
+          },
+          "net9.0-ios18.2": {
+            "targetAlias": "net9.0-ios",
+            "projectReferences": {
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj"
+              },
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj"
+              }
+            }
+          },
+          "net9.0-maccatalyst18.2": {
+            "targetAlias": "net9.0-maccatalyst",
+            "projectReferences": {
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj"
+              },
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj"
+              }
+            }
+          },
+          "net9.0-windows10.0.19041": {
+            "targetAlias": "net9.0-windows10.0.19041.0",
+            "projectReferences": {
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj"
+              },
+              "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj": {
+                "projectPath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Infrastructure\\SocialGeoPlatform.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-ios18.2": {
+          "targetAlias": "net9.0-ios",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-maccatalyst18.2": {
+          "targetAlias": "net9.0-maccatalyst",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "xamarinios10",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.MacCatalyst": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-windows10.0.19041": {
+          "targetAlias": "net9.0-windows10.0.19041.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-x64": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

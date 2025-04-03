@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SocialGeoPlatform.Mobile</name>
+    </assembly>
+    <members>
+        <member name="T:SocialGeoPlatform.Mobile.ViewModels.MapViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:SocialGeoPlatform.Mobile.ViewModels.MapViewModel.Events">
+            <inheritdoc cref="F:SocialGeoPlatform.Mobile.ViewModels.MapViewModel._events"/>
+        </member>
+        <member name="F:SocialGeoPlatform.Mobile.ViewModels.MapViewModel.refreshCommand">
+            <summary>The backing field for <see cref="P:SocialGeoPlatform.Mobile.ViewModels.MapViewModel.RefreshCommand"/>.</summary>
+        </member>
+        <member name="P:SocialGeoPlatform.Mobile.ViewModels.MapViewModel.RefreshCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:SocialGeoPlatform.Mobile.ViewModels.MapViewModel.Refresh"/>.</summary>
+        </member>
+        <member name="T:SocialGeoPlatform.Mobile.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Events">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Events" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Events">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Events" generated properties.</summary>
+        </member>
+    </members>
+</doc>

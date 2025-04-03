@@ -1,0 +1,13 @@
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\bin\Debug\net9.0\SocialGeoPlatform.Core.deps.json
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\bin\Debug\net9.0\SocialGeoPlatform.Core.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\bin\Debug\net9.0\SocialGeoPlatform.Core.pdb
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.csproj.AssemblyReference.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.GeneratedMSBuildEditorConfig.editorconfig
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.AssemblyInfoInputs.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.AssemblyInfo.cs
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.csproj.CoreCompileInputs.cache
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\refint\SocialGeoPlatform.Core.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.pdb
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\ref\SocialGeoPlatform.Core.dll
+V:\SocialGeoPlatform\SocialGeoPlatform.Core\obj\Debug\net9.0\SocialGeoPlatform.Core.sourcelink.json

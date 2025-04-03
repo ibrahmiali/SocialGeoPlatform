@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mK/toMuA4WA=",
+  "success": true,
+  "projectFilePath": "V:\\SocialGeoPlatform\\SocialGeoPlatform.Core\\SocialGeoPlatform.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\h_jed\\.nuget\\packages\\guard.net\\3.0.0\\guard.net.3.0.0.nupkg.sha512",
+    "C:\\Users\\h_jed\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\h_jed\\.nuget\\packages\\postgrest-csharp\\3.5.1\\postgrest-csharp.3.5.1.nupkg.sha512",
+    "C:\\Users\\h_jed\\.nuget\\packages\\supabase-core\\0.0.3\\supabase-core.0.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

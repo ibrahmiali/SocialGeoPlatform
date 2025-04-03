@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SocialGeoPlatform.Core/1.0.0": {
+        "dependencies": {
+          "Guard.Net": "3.0.0",
+          "postgrest-csharp": "3.5.1"
+        },
+        "runtime": {
+          "SocialGeoPlatform.Core.dll": {}
+        }
+      },
+      "Guard.Net/3.0.0": {
+        "runtime": {
+          "lib/net6.0/GuardNet.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "postgrest-csharp/3.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "supabase-core": "0.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Supabase.Postgrest.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "supabase-core/0.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Supabase.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocialGeoPlatform.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Guard.Net/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IqBjAcjDkqgyIPGZWJUXWqSLRDtzguXXPVxC8pKNPw3oTVZBpgNn/2R2rTlvwvE5NmuuNfsDZgc0kRrCvqqpgQ==",
+      "path": "guard.net/3.0.0",
+      "hashPath": "guard.net.3.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "postgrest-csharp/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w0LMx+lbixBnjeNeaD03e6890Sk/ItkFUOR/ga2OP7rXPF9fpUOFV21UEaGdWushc7mliDolazzwVPkljcnrow==",
+      "path": "postgrest-csharp/3.5.1",
+      "hashPath": "postgrest-csharp.3.5.1.nupkg.sha512"
+    },
+    "supabase-core/0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e6NxN3kShudlO9ts378CW3V94op6GsesrVanp6yXSf5K0iRzP36TFf3EpqaSOylgbvBUUfZnPlestCnJ8ULvjA==",
+      "path": "supabase-core/0.0.3",
+      "hashPath": "supabase-core.0.0.3.nupkg.sha512"
+    }
+  }
+}
